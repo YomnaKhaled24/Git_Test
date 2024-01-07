@@ -1,0 +1,16 @@
+1-To remove branch locally
+ git branch -d dev
+ git branch -d test
+
+2-To remove branch remotly
+git push origin :dev
+git push origin :test
+
+3-To list tags
+git tag
+
+4-To remove tag locally
+git tag -d v1.7      
+
+5-To remove tag remotly
+ git push origin --delete v1.7
